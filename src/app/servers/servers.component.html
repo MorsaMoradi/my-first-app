@@ -10,5 +10,8 @@
 <ng-template #noServer>
     <p>No server was created!</p>
 </ng-template>
-<app-server *ngFor="let item of servers"></app-server>
+<div *ngFor="let item of servers; let i=index">
+{{i}}
+    <app-server ></app-server>
+</div>
 <!-- <app-server></app-server> -->
