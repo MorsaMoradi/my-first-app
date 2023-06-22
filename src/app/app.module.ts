@@ -11,6 +11,7 @@ import { ServersComponent } from './servers/servers.component';
     ServersComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule
   ],
   providers: [],
